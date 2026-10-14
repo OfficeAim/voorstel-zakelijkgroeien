@@ -242,3 +242,52 @@ footer{background:var(--navy);color:#cfd6e4;padding:36px 0;font-size:14px}footer
   height: 100%;
   border: 0;
 }
+
+/* Sección Cinematográfica del Video Principal */
+.video-hero-section {
+  padding: 40px 0 20px 0 !important;
+  background: #ffffff;
+  border-bottom: none !important;
+}
+.video-hero-card {
+  background: linear-gradient(180deg, #f8fafc 0%, #edf2f7 100%);
+  border: 1px solid var(--line);
+  border-radius: 24px;
+  padding: 36px 28px 44px 28px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(15, 30, 58, 0.06);
+}
+.video-hero-title {
+  font-size: 32px !important;
+  margin: 12px 0 8px 0 !important;
+  color: var(--navy) !important;
+  font-weight: 700;
+}
+.video-hero-desc {
+  color: var(--muted);
+  max-width: 680px;
+  margin: 0 auto 28px auto;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.video-container-cinema {
+  position: relative;
+  width: 100%;
+  max-width: 1000px; /* Cubre casi toda la pantalla centrada */
+  margin: 0 auto;
+  padding-bottom: 56.25%; /* 16:9 Cinema */
+  height: 0;
+  overflow: hidden;
+  border-radius: 18px;
+  box-shadow: 0 24px 50px rgba(15, 30, 58, 0.28);
+  border: 1px solid rgba(15, 30, 58, 0.15);
+  background: #000;
+}
+.video-container-cinema iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
