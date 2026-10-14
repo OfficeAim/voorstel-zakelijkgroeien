@@ -38,3 +38,22 @@ tr:last-child td{border-bottom:0}td.num{white-space:nowrap}
 details{background:#fff;border:1px solid var(--line);border-radius:12px;padding:14px 18px;margin-bottom:10px}summary{cursor:pointer;font-weight:600;color:var(--navy)}
 footer{background:var(--navy);color:#cfd6e4;padding:36px 0;font-size:14px}footer a{color:var(--gold);text-decoration:none;margin-right:16px}footer .nm{color:#fff;font-weight:600}
 @media(max-width:640px){.hero h1{font-size:30px}.top a{margin-left:10px;font-size:13px}th,td{padding:9px 10px;font-size:14px}}
+
+/* Brand Logos en el Header */
+.brand-logos {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.brand-logos span {
+  color: var(--gold);
+  font-size: 20px;
+  font-weight: 700;
+  opacity: 0.85;
+}
+.nav-logo {
+  height: 42px;
+  width: auto;
+  object-fit: contain;
+  border-radius: 4px;
+}
